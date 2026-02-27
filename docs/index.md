@@ -45,9 +45,15 @@ Learn how to do common tasks with in the To-Do Service.
 First, do this tutorial to set up your development system for these tutorials.
 You only have to do this one time per development system.
 
+Not convinced? Learn more about this service from these overview pages:
+
+* [add the link to your overview to this list](./overviews/generic_overview.md)
+
+Ready to give it a try? Start here.
+
 * [Before you start a tutorial](before-you-start-a-tutorial.md)
 
-After your system is ready, these tutorials show you how to perform common tasks.
+After your development system is ready, these tutorials show you how to perform common tasks.
 
 * [Enroll a new user](tutorials/enroll-a-new-user.md)
 * [Add a new task](tutorials/add-a-new-task.md)
