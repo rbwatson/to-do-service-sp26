@@ -28,12 +28,12 @@ Missing the rule number.
 
 ## Incomplete Rule Number
 
-<!-- markdownlint-disable MD -->
+<!-- markdownlint-disable MD013 -->
 Rule number is incomplete (needs 3 digits).
 
 ## Wrong Comment Format
 
-<!--> vale Style.Rule = NO -->
+<!-- vale Style.Rule = NO -->
 This uses the wrong comment style for markdown.
 
 <!-- markdownlint-disable MD013 -->
