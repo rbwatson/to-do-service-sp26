@@ -16,6 +16,7 @@ test:
 This file is used to test error handling when front matter is malformed.
 
 The YAML above has several syntax errors:
+
 - Unclosed string
 - Unclosed list
 - Other YAML syntax issues
