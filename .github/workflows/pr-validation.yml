@@ -42,7 +42,7 @@ jobs:
       
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       
@@ -97,10 +97,10 @@ jobs:
     if: needs.discover-changes.outputs.any_tools_changed == 'true'
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
       
@@ -138,10 +138,10 @@ jobs:
       CHANGED_FILES: ${{ needs.discover-changes.outputs.all_md_files }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
       
@@ -177,14 +177,14 @@ jobs:
       
       # MarkdownLint
       - name: Run markdownLint
-        uses: DavidAnson/markdownlint-cli2-action@v21
+        uses: DavidAnson/markdownlint-cli2-action@v19
         with:
           globs: ${{ needs.discover-changes.outputs.all_md_files }}
           config: .github/config/.markdownlint.jsonc
           separator: ','
 
       - name: Run Vale
-        uses: errata-ai/vale-action@v2.1.1
+        uses: errata-ai/vale-action@v3
         with:
           version: '3.12.0'
           files: ${{ needs.discover-changes.outputs.all_md_files }}
@@ -215,7 +215,7 @@ jobs:
       needs.discover-changes.outputs.any_docs_changed == 'true'
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -223,7 +223,7 @@ jobs:
           node-version: '18'
       
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
       
@@ -467,7 +467,7 @@ jobs:
       (needs.test-api-docs.result == 'success' || needs.test-api-docs.result == 'skipped')
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       
