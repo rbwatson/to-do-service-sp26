@@ -184,7 +184,7 @@ jobs:
           separator: ','
 
       - name: Run Vale
-        uses: errata-ai/vale-action@v3
+        uses: errata-ai/vale-action@v2.1.1
         with:
           version: '3.12.0'
           files: ${{ needs.discover-changes.outputs.all_md_files }}
