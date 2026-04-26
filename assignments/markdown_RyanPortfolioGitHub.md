@@ -16,12 +16,13 @@ This article lists the pros and cons of using Markdown.
 
 ## Advantages and disadvantages expressed in table format
 
-| Advantages    | Disadvantages|  
-| ------------- |:-------------:|
-| easy          | not wysiwyg |
-| clean         | requires specialized training     |
-| pays well if you can understand it | annoying     |
+| Advantages | Disadvantages |
+| --- | --- |
+| easy | not wysiwyg |
+| clean | requires specialized training |
+| pays well if you can understand it | annoying |
 
+Refer [Markdown Cheatsheet](https://shorturl.at/71dza)
 
 Refer [Markdown Cheatsheet](https://shorturl.at/71dza)
 to learn more Markdown elements.
