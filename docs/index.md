@@ -68,3 +68,4 @@ generally `http://localhost:3000`.
 
 * [user resource](api/user.md)
 * [task resource](api/task.md)
+* [Search task resource](api/search-tasks-get.md)
