@@ -5,14 +5,14 @@
 layout: default
 description: User Management
 topic_type: reference
-# test:
-#   test_apps:
-#     - json-server@0.17.4
-#   server_url: localhost:3000
-#   local_database: /api/to-do-db-source.json
-#   testable:
-#     - GET example / 200
-#     - POST example / 201
+test:
+   test_apps:
+     - json-server@0.17.4
+   server_url: localhost:3000
+   local_database: /api/to-do-db-source.json
+   testable:
+     - GET example / 200
+     - POST example / 201
 # vale  on
 # markdownlint-enable
 -->
