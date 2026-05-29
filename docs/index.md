@@ -18,10 +18,11 @@ related_pages:
     - /before-you-start-a-tutorial 
     - /tutorials/add-a-new-task
     - /tutorials/enroll-a-new-user
+    - /tutorials/update-a-task
 examples: []
 api_endpoints: []
-version: "v1.0"
-last_updated: "2026-03-01"
+version: "v1.1"
+last_updated: "2026-05-28"
 # vale  on
 # markdownlint-enable
 ---
@@ -36,7 +37,7 @@ subscribers can add new tasks and receive reminders of those tasks.
 
 ## Quickstart
 
-[Add your first task _(coming soon)_](#quickstart) with the To-Do Service to see how easy it is to use!
+[Add your first task _(coming soon)_](#quickstart) with the To-Do Service.
 
 ## Tutorials
 
@@ -51,7 +52,7 @@ After your system is ready, these tutorials show you how to perform common tasks
 
 * [Enroll a new user](tutorials/enroll-a-new-user.md)
 * [Add a new task](tutorials/add-a-new-task.md)
-* [Change the due-date of a task _(coming soon)_](#tutorials)
+* [Update a task](tutorials/update-a-task.md)
 * [Delete a task _(coming soon)_](#tutorials)
 
 ## API reference docs
