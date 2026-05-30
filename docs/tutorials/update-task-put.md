@@ -3,7 +3,7 @@
 # vale off
 # tags used by just-the-docs theme
 layout: default
-nav_order: 3
+nav_order: 4
 parent: Tutorials
 # tags used by AI files
 description: Update an existing `task` instance
@@ -27,9 +27,9 @@ last_updated: "2026-02-05"
 # markdownlint-enable
 ---
 
-<!--vale Google.Acronyms = NO -->
-
 # Tutorial: Update an existing task
+
+<!--vale Google.Acronyms = NO -->
 
 In this tutorial, you learn to update an existing task resource instance
 using the PUT method. In REST API, the PUT method replaces an existing instance
