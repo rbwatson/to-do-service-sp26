@@ -3,8 +3,8 @@
 # vale off
 # tags used by just-the-docs theme
 layout: default
-nav_order: 3
-parent: Tutorials
+nav_order: 1
+parent: task resource
 # tags used by AI files
 description: search task resource
 topic_type: tutorial
@@ -27,9 +27,9 @@ last_updated: "2026-02-05"
 # markdownlint-enable
 ---
 
-<!--vale Google.Acronyms = NO -->
-
 # Search task resource
+
+<!--vale Google.Acronyms = NO -->
 
 Search a task in the database using curl and Postman.
 The query returns all the matching instances of the text
